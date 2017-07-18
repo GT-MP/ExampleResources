@@ -22,7 +22,7 @@ function formatMsg(input) {
     var pass2 = pass1.replaceAll("~b~", '</span><span style="color: blue;">');
     var pass3 = pass2.replaceAll("~g~", '</span><span style="color: green;">');
     var pass4 = pass3.replaceAll("~p~", '</span><span style="color: purple;">');
-    var pass5 = pass3.replaceAll("~w~", '</span><span style="color: white;">');
+    var pass5 = pass4.replaceAll("~w~", '</span><span style="color: white;">');
 
     return output + pass5 + "</span>";
 }
